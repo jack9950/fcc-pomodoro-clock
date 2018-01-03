@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!--Instruct Internet Explorer to display the page with the highest mode available-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--enable touch zooming and ensure proper rendering on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Free Code Camp Pomodoro Clock</title>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overpass+Mono:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <!-- <link rel="stylesheet" href="dist/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" href="main.css" type="text/css"></link> -->
+</head>
+
+<body>
+
+    <h1>POMODORO CLOCK</h1>
+
+    <div class="sessionAndBreak">
+        <div class="break">
+            <div class="">
+                <span id="increaseBreak" class="plusminus">+</span><span id="breakLength">05</span><span id="decreaseBreak" class="plusminus">-</span>
+            </div>
+            <span>BREAK LENGTH</span>
+        </div>
+        <div class="session">
+            <div class="">
+                <span id="increaseSession" class="plusminus">+</span><span id="sessionLength">25</span><span id="decreaseSession" class="plusminus">-</span>
+            </div>
+            <span>SESSION LENGTH</span>
+        </div>
+    </div>
+
+    <div id="clock">
+        <div id="sessionName"></div>
+        <div class="timeRemaining">
+            <span id="minutes"></span>
+            <div>Min</div>
+        </div>
+        <div class="timeRemaining">
+            <span id="seconds"></span>
+            <div>Sec</div>
+        </div>
+    </div>
+    <div>
+        <span id="start" class="btn btn-primary">Start</span>
+        <span id="reset" class="btn btn-primary">Reset</span>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js " integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin=" anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa " crossorigin="anonymous "></script>
+    <!-- <script src="jquery-3.2.1.js "></script> -->
+    <!-- <script src="dist/js/bootstrap.min.js "></script> -->
+    <script src="main1.js "></script>
+</body>
+
+</html>

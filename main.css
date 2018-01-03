@@ -1,0 +1,139 @@
+body {
+    background: #D7DFDD;
+    text-align: center;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: 396;
+    font-size: 40px;
+    font-weight: 100;
+    margin: 40px 0px;
+}
+
+.sessionAndBreak {
+    font-size: 30px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.session {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.break {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.plusminus {
+    font-size: 2em;
+    margin: 10px 30px;
+    text-align: center;
+    /*background: #a6a6a6;*/
+    font-weight: bold;
+    /*width: 500px;*/
+    /*height: 500px;*/
+    /*border-radius: 50%;*/
+    /*font-size: 50px;*/
+    /*color: #fff;*/
+    /*line-height: 50px;*/
+    text-align: center;
+    /*background: #000*/
+    cursor: pointer;
+}
+
+#clock {
+    font-family: 'Orbitron', sans-serif;
+    /*font-family: 'Overpass Mono', monospace;*/
+    /*font-family: 'Share Tech Mono', monospace;*/
+    /*font-family: 'Source Code Pro', monospace;*/
+    /*font-family: 'Inconsolata', monospace;*/
+    font-size: 30px;
+    /*font-weight: bold;*/
+    border-radius: 5px;
+    border-width: .5px;
+    border-style: solid;
+    border-color: #000000;
+    width: 350px;
+    /*text-align: center;*/
+    margin-left: auto;
+    margin-right: auto;
+    background: #00BF96;
+}
+
+#clock .timeRemaining {
+    display: inline-block;
+    width: 100px;
+    /*border-radius: 5px;
+    border-width: .5px;
+    border-style: solid;
+    border-color: #000000;*/
+    padding: 10px;
+    /*margin: 0px 10px;*/
+    }
+
+/*#clock {
+    display: inline-block;
+    width: 150px;
+    background: #00BF96;
+    border-radius: 5px;
+    border-width: .5px;
+    border-style: solid;
+    border-color: #000000;
+    padding: 10px;
+    margin: 0px 10px;
+    }*/
+
+.timeRemaining {
+    display: inline-block;
+}
+
+
+/*.sessionPlusMinus {
+    font-size: 50px
+}*/
+
+
+#sessionLength {
+    /*font-size: 20px;*/
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#breakLength {
+    /*font-size: 20px;*/
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#start {
+    font-size: 20px;
+    /*margin-right: 10px;*/
+    width: 80px;
+    margin: 10px;
+}
+
+#reset {
+    font-size: 20px;
+    margin-left: 20px;
+    width: 80px;
+}
+
+#minutes {
+    font-size: 50px;
+}
+
+#seconds {
+    font-size: 50px;
+}
+
+#breakdiv .breakRemaining {
+    display: inline-block;
+}
+
+clockdiv span {
+    display: inline-block;
+}
